@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VIGPRO</title>
+    <link rel="stylesheet" href="kreasi.css" />
+    <script src="../custom-scripts.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="nav container">
+          <h2 class="nav_logo"><a href="#">VIGARA PRODUCTION</a></h2>
+
+          <ul class="menu_items">
+            <img src="times.svg" alt="timesicon" id="menu_toggle" />
+            <li><a href="#" class="nav_link" id="halamanutamaBtn">Halaman Utama</a></li>
+            <li><a href="#" class="nav_link">Pendaftaran</a></li>
+            <li><a href="#" class="nav_link" id="kreasiBtn">Kreasi</a></li>
+            <li><a href="#" class="nav_link">Informasi</a></li>
+            <li><a href="#" class="nav_link">Aplikasi</a></li>
+          </ul>
+          <img src="bars.svg" alt="timesicon" id="menu_toggle" />
+        </nav>
+      </header>
+      <script>
+        const header = document.querySelector("header");
+        const menuToggler = document.querySelectorAll("#menu_toggle");
+        const loginBtn = document.getElementById("loginBtn");
+  
+        menuToggler.forEach(toggler => {
+          toggler.addEventListener("click", () => header.classList.toggle("showMenu"));
+        });
+  
+        loginBtn.addEventListener("click", () => {
+          window.location.href = 'login.html'; // Ganti 'login.html' dengan nama file halaman login Anda
+          
+        });
+  
+        signinBtn.addEventListener("click", () => {
+          window.location.href = 'lanjutan/signin.html'; // Ganti 'signin.html' dengan nama file halaman sign in Anda
+          
+        });
+  
+        halamanutamaBtn.addEventListener("click", () => {
+          window.location.href = 'halaman_utama.html'; // Ganti 'halaman_utama.html' dengan nama file halaman Halaman Utama Anda
+          
+        });
+  
+        kreasiBtn.addEventListener("click", () => {
+          window.location.href = 'navigasi/kreasi.html'; // Ganti 'kreasi.html' dengan nama file Kreasi Anda
+          
+        });
+  
+  
+  
+      </script>
+    </body>
+  </html>
+  

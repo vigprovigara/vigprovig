@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+    margin: 0;
+}
+
+.countdown {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.countdown h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.timer {
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer span {
+    padding: 10px;
+    margin: 5px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.timer span:nth-child(2n) {
+    background-color: #555;
+}
+
+.timer span:nth-child(3n) {
+    background-color: #777;
+}
+
+.timer span:nth-child(4n) {
+    background-color: #999;
+}
+
+.timer span:nth-child(5n) {
+    background-color: #bbb;
+}
+
+.timer span:nth-child(6n) {
+    background-color: #ddd;
+}
+
+.timer span:nth-child(7n) {
+    background-color: #ccc;
+}
+
+.timer span:nth-child(8n) {
+    background-color: #aaa;
+}
